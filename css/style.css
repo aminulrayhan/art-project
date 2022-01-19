@@ -1,0 +1,282 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,span,h1,h1,h3,h4,h5,h6,input,textarea{
+	font-family: 'EB Garamond', serif;
+  font-weight: 400 !important;
+}
+
+p
+{
+  font-family:'Alegreya Sans', serif;
+  font-weight: 400;
+  
+}
+
+header{
+	width: 100%;
+	padding-top:20px;
+	position: absolute;
+	z-index: 999;
+	
+}
+.navbar-brand{
+	color: white !important;
+	cursor: pointer;
+
+}
+
+
+.btn{
+	border: 1px solid #fff;
+	color: #fff;
+	
+}
+.btn:hover{
+		color: #fff;
+}
+.searchbt input:focus::placeholder{
+	opacity: 0;
+}
+.searchbt input:focus{
+	box-shadow: none;
+}
+
+.searchbt input{
+	border: 1px solid #fff;
+}
+
+.iconnav{
+  color: #fff;
+}
+
+
+
+
+/*banner section start from here*/
+#banner{
+	width: 100%;
+	background-image: url(../img/1.jpg);
+	/*background-image: url(https://cdn.glitch.global/3eaccac2-8a18-4d99-9086-d926c80e387f/banner.jpeg);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	position: relative;
+}
+
+.banner-content{
+	    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.banner-content p{
+	color: white;
+	font-size: 18px;
+	font-style: italic;
+}
+.banner-content h2{
+	color: white;
+	font-size:100px;
+	font-weight: 700;
+	
+}
+a{
+	text-decoration: none;
+}
+.banner-content a{
+	font-family: 'EB Garamond', serif;
+  
+  padding: 10px 40px;
+    background: transparent;
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 50px;
+	
+	
+}
+
+/*banner section end from here*/
+
+
+
+
+
+
+/*collection section start from here*/
+/* collection section */
+.tab-item {
+       background-color: #d1d1d1 !important;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    font-weight: 300;
+}
+.collection{
+  background: #B69A6A;
+  padding:100px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: transparent !important;
+	border: 2px solid #ddd;
+}
+
+
+/*collection section end from here*/
+
+
+
+
+
+/*gallery section start from here*/
+
+#gallery{
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+}
+.galleries{
+	font-size: calc(1.325rem + .9vw);
+    font-weight: 500;
+    line-height: 1.2;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #aba3a3;
+    margin-bottom: 50px;
+
+}
+
+
+
+.gallery-text h6{
+	font-size: 16px;
+	font-weight: 400;
+	color: #49540d;
+	font-style: italic;
+}
+.gallery-text h3{
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.gallery-text a span{
+	font-size: 16px;
+	font-weight: 600;
+	color: black !important;
+	margin-left: 15px;
+}
+.gallery-text{
+	position: absolute;
+		transition: 0.5s;
+
+}
+.textimages{
+    background:#fff;
+    top: -61px;
+    bottom: 0;
+    left: 0;
+    margin-right: 24px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.gallery-text a i{
+	color: black;
+}
+.gallery-text img{
+	width: 320px;
+
+}
+
+.image-top{
+	margin-top: -40px;
+}
+
+.first1:hover{
+	transform: translateY(-35px);
+	transition: 0.5s;
+
+}
+
+.first2:hover{
+	transform: translateY(40px);
+	transition: 0.5s;
+
+}
+.first3:hover{
+	transform: translateY(-35px);
+	transition: 0.5s;
+
+}
+
+.first4:hover{
+	transform: translateY(40px);
+	transition: 0.5s;
+
+}
+
+
+
+
+/*gallery section end from here*/
+
+
+
+/* footer section start from here */
+
+footer{
+	width: 100%;
+	margin-top: 670px;
+	background-color: black;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.footer-claim i{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	margin-right: 5px;
+
+}
+  
+
+.footer-claim{
+	  padding-top: 52px;
+}
+.footer-claim span{
+	color: #fff;
+	font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.footer-content-right{
+	padding-left: 200px;
+
+}
+.footer-content-right h4{
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+
+
+}
+.footer-content-right h5{
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1px;
+
+
+}
+/* footer section end from here */
